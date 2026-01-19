@@ -129,8 +129,9 @@ pub enum Action {
     DumpScreen(String, bool),
     /// Dumps
     DumpLayout,
-    /// Scroll up in focus pane.
     EditScrollback,
+    EditScrollbackRaw,
+    /// Scroll up in focus pane.
     ScrollUp,
     /// Scroll up at point
     ScrollUpAt(Position),

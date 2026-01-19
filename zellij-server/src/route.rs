@@ -195,6 +195,11 @@ pub(crate) fn route_action(
                 .send_to_screen(ScreenInstruction::EditScrollback(client_id))
                 .with_context(err_context)?;
         },
+        Action::EditScrollbackRaw => {
+            senders
+                .send_to_screen(ScreenInstruction::EditScrollbackRaw(client_id))
+                .with_context(err_context)?;
+        },
         Action::ScrollUp => {
             senders
                 .send_to_screen(ScreenInstruction::ScrollUp(client_id))

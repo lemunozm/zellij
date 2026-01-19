@@ -1,6 +1,6 @@
 [package]
 name = "zellij"
-version = "0.43.1"
+version = "0.43.1-lemunozm-additions"
 authors = ["Aram Drevekenin <aram@poor.dev>"]
 edition = "2021"
 description = "A terminal workspace with batteries included"
